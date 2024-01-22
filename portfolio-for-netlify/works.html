@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Portfolio</title>
+    <!-- SVG -->
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css' rel='stylesheet'>
+
+
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/chevron-right.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/chevron-left.css' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+
+    <link rel="stylesheet" href="works.css">
+</head>
+
+<body>
+
+    
+ <!------ START MENU ------>
+    <div class="menu">
+        <div class="menu-container left">
+            <ul class="options hoverable">
+                <li class="nav"><a href="index.html" class="nav-link">Home <span class="small-number">01</span></a></li>
+                <li class="nav"><a href="works.html" class="nav-link">Work <span class="small-number">02</span></a></li>
+                <li class="nav"><a href="#" class="nav-link">About <span class="small-number">03</span></a></li>
+                <li class="nav"><a href="#" class="nav-link">Service <span class="small-number">04</span></a></li>
+            </ul>
+        </div>
+        <div class="menu-container right">
+            <div class="information">
+                <p class="title head">Let's Find Solution</p>
+
+            </div>
+            <div class="information">
+                <p class="description">Use my contacts below, if you need to put a project on the move, let’s work on it!</p>
+                <a href="#">
+                    <p class="description mail">torcelino.johndominic@gmail.com</p>
+                </a>
+
+            </div>
+
+            <div class="information">
+                <div class="contact-wrapper">
+                    <div class="target hoverable"> 
+                        <div class="itemTarget">
+                            <a style="color: #C09240;" href="contact.html"><span>Contact Me</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+        <!------ START NAV ------>
+        <div class="home-items">
+            <div class="home">
+                <div class="container left-nav">
+                    <div class="target hoverable"> 
+                        <div class="itemTarget">
+                            <a href="index.html" ><div style="color: white;" class="logo">Dom</div></a>
+                    </div>
+                </div>
+            </div>
+                <div class="container right-nav">
+                    <div class="target hoverable"> 
+                        <div class="itemTarget">
+                            <label for="check">
+                                <input type="checkbox" id="check" class="menu-div"/> 
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!------ END NAV ------>
+
+<!-- END MENU -->
+    
+    <!------ START HERO ------>
+
+    <!-- <div class="container hero" > 
+        <div class="hero-wrapper">
+            <div class="hero-row">
+                <div class="hero-text">
+                    <div class="hero-text-content">
+                        <h1>What I've <br> been up to.</h1>
+                        <p>Work</p>
+                        <p>Here are my works in the past few months</p>
+                        <button>button</button>
+                    </div>
+                    
+                </div>
+                <div class="hero-image">
+                    <div class="image">
+                        <img src="images/webmockup.gif" alt="">
+                    </div>
+                </div>
+            </div>
+     </div>
+   </div>
+
+   
+   <div class="cursor1" id="cursor">
+     </div>
+
+     <div class="cursor">
+       
+       <div class="cursor__ball cursor__ball--big ">
+         <svg height="30" width="30">
+           <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+         </svg>
+      
+       </div>
+       
+       
+       <div class="cursor__ball cursor__ball--small">
+         <svg height="10" width="10">
+           <circle cx="5" cy="5" r="4" stroke-width="0"></circle>
+         </svg>
+       </div>
+
+     </div> -->
+
+     <div class="hero">
+        <div class="wrapper">
+            <div class="parentdiv">
+                <div class="card">
+                    <div class="card-text">
+                        <h1>
+                            What I've <br>been up to
+                        </h1>
+                    <div class="short">
+                            
+                            <div class="square">
+                                <div class="itemSquare color1"></div>
+                            </div>
+                            <p>work</p>
+                    </div>
+
+                        <h4>Here are the selection of my projects that I've worked on.</h4>
+                    </div>
+                    </div>
+                <div class="card">
+                    
+                        <div class="card-image">
+                            <img src="/images/webmockup.gif" alt="">
+                        </div>
+              
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!------ END HERO ------>
+
+    <!------ START PORTFOLIO ------>
+    <section class="portfolio" id="Portfolio">
+        <div class="p-container">
+            <div class="row">
+                <div class="section-title text-center">
+                    <h1>My Portfolio</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="filter-buttons">
+                    <ul id="filter-btns">
+                        <li class="active" data-target="all">All</li>
+                        <li data-target="Web">Website Design</li>
+                        <li data-target="Mobile">Mobile Design</li>
+                        <li data-target="Dashboard">Dashboard</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="portfolio-gallery">
+  
+                    <div class="item" data-id="Dashboard">
+                        <div class="inner">
+                            <img src="/images/dashboard1.png" alt="portfolio">
+                           
+                        </div>
+                    </div>
+                    
+                    <div class="item" data-id="Web">
+                        <div class="inner">
+                            <img src="/images/web1.png" alt="portfolio">
+                             
+                        </div>
+                    </div>
+
+                    <div class="item" data-id="Dashboard">
+                        <div class="inner">
+                            <img src="/images/dashboard2.png" alt="portfolio">
+                            
+                        </div>
+                    </div>
+
+                    <div class="item" data-id="Mobile">
+                        <div class="inner">
+                            <img src="/images/mobile1.png" alt="portfolio">
+                             
+                        </div>
+                    </div>
+  
+                    
+  
+                    <div class="item" data-id="Mobile">
+                        <div class="inner">
+                            <img src="/images/mobile2.png" alt="portfolio">
+                             
+                        </div>
+                    </div>
+  
+                    <div class="item" data-id="Web">
+                        <div class="inner">
+                            <img src="/images/web2.png" alt="portfolio">
+                            
+                        </div>
+                    </div>
+  
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!------ END PORTFOLIO ------>
+
+    <!------ START CURSOR ------>
+     
+   <div class="cursor1" id="cursor">
+</div>
+
+<div class="cursor">
+  
+  <div class="cursor__ball cursor__ball--big ">
+    <svg height="30" width="30">
+      <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+    </svg>
+ 
+  </div>
+  
+  
+  <div class="cursor__ball cursor__ball--small">
+    <svg height="10" width="10">
+      <circle cx="5" cy="5" r="4" stroke-width="0"></circle>
+    </svg>
+  </div>
+
+</div>
+
+    
+    
+
+    <!------ START LAST MESSAGE ------>
+
+    <section class="end-message">
+        <div class="text-box">
+            <h12 class="hidden">CONTACT ME, MY BEST FRIEND . .</h12>
+        </div>
+    </section>
+
+    <!------ END LAST MESSAGE ------>
+
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

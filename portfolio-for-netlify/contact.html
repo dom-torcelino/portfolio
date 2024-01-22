@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Portfolio</title>
+    <!-- SVG -->
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css' rel='stylesheet'>
+
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/chevron-right.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/chevron-left.css' rel='stylesheet'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+
+    <!-- CONTACT US CSS -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+ <!------ START MENU ------>
+    <div class="menu">
+        <div class="menu-container left">
+            <ul class="options hoverable">
+                <li class="nav"><a href="index.html" class="nav-link">Home <span class="small-number">01</span></a></li>
+                <li class="nav"><a href="#" class="nav-link">Work <span class="small-number">02</span></a></li>
+                <li class="nav"><a href="#" class="nav-link">About <span class="small-number">03</span></a></li>
+                <li class="nav"><a href="#" class="nav-link">Blog <span class="small-number">04</span></a></li>
+            </ul>
+        </div>
+        <div class="menu-container right">
+            <div class="information">
+                <p class="title head">Let's Find Solution</p>
+
+            </div>
+            <div class="information">
+                <p class="description">Use my contacts below, if you need to put a project on the move, let’s work on it!</p>
+                <a href="#">
+                    <p class="description mail">torcelino.johndominic@gmail.com</p>
+                </a>
+
+            </div>
+
+            <div class="information">
+                <div class="contact-wrapper">
+                    <div class="target hoverable"> 
+                        <div class="itemTarget">
+                            <a style="text-decoration: none; color: #C09240;" href="contact.html"><span>Contact Me</span></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END MENU -->
+
+    <!------ START NAV ------>
+    <div class="home-items">
+        <div class="home">
+            <div class="left-nav">
+                <div class="target hoverable"> 
+                    <div class="itemTarget">
+                <a href="index.html" ><div style="color: white;" class="logo">Dom</div></a>
+            </div>
+        </div>
+    </div>
+            <div class="right-nav">
+                <div class="target hoverable"> 
+                    <div class="itemTarget">
+                        <label for="check">
+                            <input type="checkbox" id="check" class="menu-div"/> 
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!------ END NAV ------>
+    
+	 <!-- CURSOR START -->
+	 <div class="cursor1" id="cursor">
+	</div>
+
+	<div class="cursor">
+	  
+	  <div class="cursor__ball cursor__ball--big ">
+		<svg height="30" width="30">
+		  <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+		</svg>
+	 
+	  </div>
+	  
+	  
+	  <div class="cursor__ball cursor__ball--small">
+		<svg height="10" width="10">
+		  <circle cx="5" cy="5" r="4" stroke-width="0"></circle>
+		</svg>
+	  </div>
+
+	</div>
+	 <!-- CURSOR END -->
+
+
+     <!-- CONTACT US START -->
+     <section class="ftco-section">
+		<div class="container">
+			
+			<div class="row justify-content-center">
+				<div class="col-lg-10 col-md-12">
+					<div class="wrapper">
+						<div class="row justify-content-center">
+							<div class="col-lg-8 mb-5">
+								<div class="row">
+									<div class="col-md-4">
+										<div class="dbox w-100 text-center">
+					        		<div class="icon d-flex align-items-center justify-content-center">
+					        			<span class="fa fa-map-marker"></span>
+					        		</div>
+					        		<div class="text">
+						            <p><span>Address:</span> Laspiñas, Metro Manila</p>
+						          </div>
+					          </div>
+									</div>
+									<div class="col-md-4">
+										<div class="dbox w-100 text-center">
+					        		<div class="icon d-flex align-items-center justify-content-center">
+					        			<span class="fa fa-phone"></span>
+					        		</div>
+					        		<div class="text">
+						            <p><span>Phone:</span> <a href="tel://1234567920">+63 999 3038 961</a></p>
+						          </div>
+					          </div>
+									</div>
+									<div class="col-md-4">
+										<div class="dbox w-100 text-center">
+					        		<div class="icon d-flex align-items-center justify-content-center">
+					        			<span class="fa fa-paper-plane"></span>
+					        		</div>
+					        		<div class="text">
+						            <p><span>Email:</span> <a href="mailto:info@yoursite.com">torcelino.johndominic@gmail.com</a></p>
+						          </div>
+					          </div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-8">
+								<div class="contact-wrap">
+									<h3 class="mb-4 text-center">Get in touch with Me</h3>
+									<div id="form-message-warning" class="mb-4 w-100 text-center"></div> 
+				      		<div id="form-message-success" class="mb-4 w-100 text-center">
+				            Your message was sent, thank you!
+				      		</div>
+									<form method="POST" id="contactForm" name="contactForm" class="contactForm">
+										<div class="row">
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+												</div>
+											</div>
+											<div class="col-md-12"> 
+												<div class="form-group">
+													<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<textarea name="message" class="form-control" id="message" cols="30" rows="8" placeholder="Message"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="submit" value="Send Message" class="btn btn-primary">
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/main2.js"></script>
+     <!-- CONTACT US END -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
